@@ -1,0 +1,9 @@
+column,yes_count,no_count,unsure_count,Private,Surface
+Image_A,50,1,1,No,Tarmac
+Image_B,8,40,4,Yes,Off-Road
+Image_C,47,5,0,Yes,Off-Road
+Image_D,44,4,4,Yes,Off-Road
+Image_E,52,0,0,No,Tarmac
+Image_F,20,29,3,Yes,Off-Road
+Image_G,34,18,0,Yes,Tarmac
+Image_H,45,2,5,No,Off-Road

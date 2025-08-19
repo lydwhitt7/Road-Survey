@@ -6,7 +6,7 @@ import matplotlib.lines as mlines
 import matplotlib.gridspec as gridspec
 
 #import raw data file
-Data_Raw = pd.read_excel('Survey_responses.xlsx')
+Data_Raw = pd.read_excel('Survey_responses2.xlsx')
 
 #transform data
 columns_to_check = ['Image_A', 'Image_B', 'Image_C', 'Image_D', 'Image_E', 'Image_F', 'Image_G', 'Image_H']  # replace with your actual column names
@@ -36,13 +36,13 @@ Private_dict = {
 
 Surface_dict = {
     'Image_A': 'Tarmac',
-    'Image_B': 'Dirt',
-    'Image_C': 'Tarmac',
-    'Image_D': 'Dirt',
+    'Image_B': 'Off-Road',
+    'Image_C': 'Off-Road',
+    'Image_D': 'Off-Road',
     'Image_E': 'Tarmac',
-    'Image_F': 'Dirt',
+    'Image_F': 'Off-Road',
     'Image_G': 'Tarmac',
-    'Image_H': 'Dirt',
+    'Image_H': 'Off-Road',
 }
 
 # Add the new column by mapping the dictionary
